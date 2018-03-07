@@ -34,6 +34,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 import rosegraphics as rg
 
 
+
 def main():
     """ Calls the other functions in this module to demo them. """
     print_math()
@@ -67,6 +68,8 @@ alan.pen = rg.Pen('blue', 30)
     alan.end_fill()
 
     forward(200)
+
+
 
     window.close_on_mouse_click()
 
